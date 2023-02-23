@@ -74,6 +74,8 @@
     color: inherit;
     font-weight: inherit;
     font-size: inherit;
+    margin-top: 1em;
+    margin-bottom: 0.3em;
   }
   
 
@@ -187,6 +189,7 @@
 .header{
   width: 100%;
   min-width: 5em;
+  
 
   padding: 1em 2em;
 
@@ -206,6 +209,7 @@
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
+  
 }
 .header .li{
   margin: 0 1em;
@@ -290,7 +294,7 @@
   opacity: 0.8;
 }
 
-.seccion .h2{
+.seccion .h2{ 
   font-family: var(--tipo-titular);
   font-size: 5em;
   font-weight: 800;
@@ -300,17 +304,21 @@
   
 }
 .seccion .h3{
+  margin-top: 0.5em;
   font-family: var(--tipo-titular);
   color: var(--blanco);
   font-size: 4.0em;  
   /* font-style: italic; */
 }
 
-
+.pworks{
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
 .seccion .grid{
   width: 90%;
   max-width: 40em;
-  margin: 1em 0;
+  margin: 2em 0;
 
   display: grid;
   grid-template-columns: repeat( auto-fit , minmax( 15rem , 1fr));
